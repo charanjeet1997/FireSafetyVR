@@ -1,0 +1,35 @@
+{
+    "version": 1,
+    "name": "FireSafetyInputActions",
+    "maps": [
+        {
+            "name": "FireExtinguisher",
+            "id": "3f85af33-3693-49b0-a880-a4c5a8254e24",
+            "actions": [
+                {
+                    "name": "SprayTrigger",
+                    "type": "Value",
+                    "id": "2ea0505e-923e-4ca3-855f-69cb659fdc4a",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "19a91238-b492-4c78-8c38-b7c7818800d1",
+                    "path": "<XRController>{LeftHand}/triggerPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SprayTrigger",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
