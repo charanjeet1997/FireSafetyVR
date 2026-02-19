@@ -41,21 +41,16 @@ public class SprayScript : MonoBehaviour
         { 
             if(sprayParticles.isPlaying)
                     sprayParticles.Stop();
+            return;
         }
 
         if (h > 0.1f)
         {
-            if (!sprayParticles.isPlaying)
-            {
-                sprayParticles.Play();
-            }
+            sprayParticles.Play();
         }
         else
-        {
-            if (sprayParticles.isPlaying)
-            {
-                sprayParticles.Stop();
-            }
+        { 
+            sprayParticles.Stop();
         }
         
     }

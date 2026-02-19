@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 3
   tags:
   - Anchor
+  - Fire
+  - Extinguisher
   layers:
   - Default
   - TransparentFX
