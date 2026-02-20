@@ -15,7 +15,7 @@ public class FireExtinguisher : MonoBehaviour
 
     void OnParticleCollision(GameObject other)
     {
-        if (!_isExtinguishing && other.CompareTag("Extinguisher"))
+        if (!_isExtinguishing && other.CompareTag("Smoke"))
         {
             StartCoroutine(StopFire());
         }
@@ -28,5 +28,9 @@ public class FireExtinguisher : MonoBehaviour
         yield return new WaitForSeconds(extinguishDelay);
 
         _fireParticles.Stop();
+        
+        yield return new WaitForSeconds(extinguishDelay);
+        
+        Destroy(_fireParticles.gameObject);
     }
 }

@@ -27,6 +27,17 @@
                     "action": "SprayTrigger",
                     "isComposite": false,
                     "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4c6ac025-335e-46e7-9d5e-33994725fd38",
+                    "path": "<XRController>{RightHand}/triggerPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SprayTrigger",
+                    "isComposite": false,
+                    "isPartOfComposite": false
                 }
             ]
         }

@@ -9,7 +9,10 @@ public class SprayScript : MonoBehaviour
     public InputActionReference sprayAction;
     public ParticleSystem sprayParticles;
     public XRSocketInteractor socketInteractor;
+    public AnimationManager animator;
+    public AudioManager audioManager;
     XRGrabInteractable grab;
+
 
     void Awake()
     {
@@ -24,11 +27,31 @@ public class SprayScript : MonoBehaviour
     void OnEnable()
     {
         sprayAction.action.Enable();
+        sprayAction.action.performed += OnSprayPressed;
+        sprayAction.action.canceled += OnSprayCancel;
     }
+
+
 
     void OnDisable()
     {
+        sprayAction.action.performed -= OnSprayPressed;
+        sprayAction.action.canceled -= OnSprayCancel;
         sprayAction.action.Disable();
+    }
+
+    private void OnSprayCancel(InputAction.CallbackContext obj)
+    {
+        animator.SetReleaseTrigger();
+        audioManager.StopSpraySound();
+    }
+    
+    private void OnSprayPressed(InputAction.CallbackContext obj)
+    {
+        if (!grab.gameObject.CompareTag("FireExtinguisher")) return;
+        if(!grab.isSelected) return;
+        animator.SetGrabTrigger();
+        audioManager.PlaySpraySound();
     }
 
     void Update()
@@ -36,11 +59,15 @@ public class SprayScript : MonoBehaviour
         if(socketInteractor.hasSelection) return; 
         
         float h = sprayAction.action.ReadValue<float>();
+
+        if (!grab.gameObject.CompareTag("FireExtinguisher")) return;
         
         if (!grab.isSelected)
-        { 
-            if(sprayParticles.isPlaying)
-                    sprayParticles.Stop();
+        {
+            if (sprayParticles.isPlaying)
+            { 
+                sprayParticles.Stop();
+            }
             return;
         }
 
