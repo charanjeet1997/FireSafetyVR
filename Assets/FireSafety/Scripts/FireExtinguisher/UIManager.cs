@@ -3,22 +3,10 @@ using UnityEngine;
 
 public class UIManager : MonoBehaviour
 {
-    public Transform extinguisherTransform;
+    public GameObject extinguisher;
 
-
-    private GameObject extinguisher;
-
-    public void SpawnFireExtinguisher(GameObject extinguisher)
+    public void SpawnFireExtinguisher()
     {
-        if (extinguisher != null)
-        {
-            Destroy(extinguisher);
-        }
-        extinguisher=Instantiate(extinguisher,
-                    extinguisher.transform.position,
-                    Quaternion.identity);
-
-        GameObject pin = extinguisher.GetNamedChild("Lacre");
-        pin.transform.SetParent(null);
+        extinguisher.SetActive(true);
     }
 }

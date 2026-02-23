@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "com.htc.upm.vive.openxr": "https://github.com/ViveSoftware/VIVE-OpenXR.git?path=com.htc.upm.vive.openxr",
     "com.unity.ide.rider": "3.0.39",
     "com.unity.inputsystem": "1.17.0",
     "com.unity.learn.iet-framework": "5.0.2",

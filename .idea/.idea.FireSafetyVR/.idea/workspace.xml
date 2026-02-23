@@ -6,36 +6,25 @@
   <component name="ChangeListManager">
     <list default="true" id="5849f0c2-5c0b-4bc0-801a-c32f1f4a8f34" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.FireSafetyVR/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FireSafetyVR/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FireSafety/Inputs/FireSafetyInputActions.inputactions" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FireSafety/Inputs/FireSafetyInputActions.inputactions" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FireSafety/Models/FireExtingusher/Materials/Peças.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FireSafety/Models/FireExtingusher/Materials/Peças.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FireSafety/Prefabs/Extintor_Sketch.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FireSafety/Prefabs/Extintor_Sketch.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/FireSafety/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FireSafety/Scenes/Game.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FireSafety/Scripts/FireExtinguisher.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FireSafety/Scripts/FireExtinguisher.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FireSafety/Scripts/RopeTest.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FireSafety/Scripts/RopeTest.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FireSafety/Scripts/SprayScript.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FireSafety/Scripts/SprayScript.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FireSafety/Scripts/Test.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FireSafety/Scripts/Test.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FireSafety/Scripts/FireExtinguisher/UIManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FireSafety/Scripts/FireExtinguisher/UIManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.7.1/HandVisualizer/Models/LeftHand.fbx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.7.1/HandVisualizer/Models/LeftHandAndroidXR.fbx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.7.1/HandVisualizer/Models/RightHand.fbx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.7.1/HandVisualizer/Models/RightHandAndroidXR.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.7.2/HandVisualizer/HandVisualizer.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.7.2/HandVisualizer/HandVisualizer.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.7.2/HandVisualizer/Materials/Blue.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.7.2/HandVisualizer/Materials/Blue.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.7.2/HandVisualizer/Materials/Green.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.7.2/HandVisualizer/Materials/Green.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.7.2/HandVisualizer/Materials/Red.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.7.2/HandVisualizer/Materials/Red.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.7.2/HandVisualizer/Materials/TransparentRed.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.7.2/HandVisualizer/Materials/TransparentRed.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.7.2/HandVisualizer/Materials/White.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.7.2/HandVisualizer/Materials/White.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.3.0/Starter Assets/DemoSceneAssets/Materials/Concrete Dark Blue.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.3.0/Starter Assets/DemoSceneAssets/Materials/Concrete Dark Blue.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.3.0/Starter Assets/DemoSceneAssets/Materials/Concrete Grey.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.3.0/Starter Assets/DemoSceneAssets/Materials/Concrete Grey.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.3.0/Starter Assets/DemoSceneAssets/Materials/Concrete Light Blue.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.3.0/Starter Assets/DemoSceneAssets/Materials/Concrete Light Blue.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.3.0/Starter Assets/DemoSceneAssets/Materials/Lit White.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.3.0/Starter Assets/DemoSceneAssets/Materials/Lit White.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.3.0/Starter Assets/Materials/Telport Anchor.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.3.0/Starter Assets/Materials/Telport Anchor.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.3.0/Starter Assets/Materials/Telport Area.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.3.0/Starter Assets/Materials/Telport Area.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/build_info" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/build_info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/XRI/Settings/Resources/InteractionLayerSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/XRI/Settings/Resources/InteractionLayerSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/XR/Settings/OpenXR Editor Settings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/XR/Settings/OpenXR Editor Settings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/XR/Settings/OpenXR Package Settings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/XR/Settings/OpenXR Package Settings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/XR/XRGeneralSettingsPerBuildTarget.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/XR/XRGeneralSettingsPerBuildTarget.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,6 +112,9 @@
       <workItem from="1770624762096" duration="5527000" />
       <workItem from="1771220360809" duration="7947000" />
       <workItem from="1771562681175" duration="16499000" />
+      <workItem from="1771679624864" duration="2229000" />
+      <workItem from="1771832183932" duration="5000" />
+      <workItem from="1771832205027" duration="1510000" />
     </task>
     <servers />
   </component>

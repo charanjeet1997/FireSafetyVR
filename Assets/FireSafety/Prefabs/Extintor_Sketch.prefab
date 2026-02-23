@@ -840,7 +840,7 @@ MonoBehaviour:
   sprayParticles: {fileID: 7332014688972712991}
   socketInteractor: {fileID: 1203735351031387229}
   animator: {fileID: 3718995458013905836}
-  audioManager: {fileID: 0}
+  audioManager: {fileID: 7097763327680137253}
 --- !u!114 &7097763327680137253
 MonoBehaviour:
   m_ObjectHideFlags: 0
