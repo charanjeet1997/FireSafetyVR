@@ -6,22 +6,15 @@
   <component name="ChangeListManager">
     <list default="true" id="5849f0c2-5c0b-4bc0-801a-c32f1f4a8f34" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.FireSafetyVR/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FireSafetyVR/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FireSafety/Prefabs/Extintor_Sketch.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FireSafety/Prefabs/Extintor_Sketch.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FireSafety/Audios/SpraySound.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FireSafety/Audios/SpraySound.mp3.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/FireSafety/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FireSafety/Scenes/Game.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FireSafety/Scripts/FireExtinguisher/UIManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FireSafety/Scripts/FireExtinguisher/UIManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FireSafety/Scripts/FireExtinguisher/AnimationManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FireSafety/Scripts/FireExtinguisher/AnimationManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FireSafety/Scripts/FireExtinguisher/AudioManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FireSafety/Scripts/FireExtinguisher/AudioManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.7.1/HandVisualizer/Models/LeftHand.fbx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.7.1/HandVisualizer/Models/LeftHandAndroidXR.fbx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.7.1/HandVisualizer/Models/RightHand.fbx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.7.1/HandVisualizer/Models/RightHandAndroidXR.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.3.0/Starter Assets/DemoSceneAssets/Materials/Concrete Dark Blue.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.3.0/Starter Assets/DemoSceneAssets/Materials/Concrete Dark Blue.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.3.0/Starter Assets/DemoSceneAssets/Materials/Concrete Grey.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.3.0/Starter Assets/DemoSceneAssets/Materials/Concrete Grey.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.3.0/Starter Assets/DemoSceneAssets/Materials/Concrete Light Blue.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.3.0/Starter Assets/DemoSceneAssets/Materials/Concrete Light Blue.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.3.0/Starter Assets/DemoSceneAssets/Materials/Lit White.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.3.0/Starter Assets/DemoSceneAssets/Materials/Lit White.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.3.0/Starter Assets/Materials/Telport Area.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.3.0/Starter Assets/Materials/Telport Area.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/build_info" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/build_info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/XR/Settings/OpenXR Editor Settings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/XR/Settings/OpenXR Editor Settings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/XR/Settings/OpenXR Package Settings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/XR/Settings/OpenXR Package Settings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/XR/XRGeneralSettingsPerBuildTarget.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/XR/XRGeneralSettingsPerBuildTarget.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
@@ -115,6 +108,8 @@
       <workItem from="1771679624864" duration="2229000" />
       <workItem from="1771832183932" duration="5000" />
       <workItem from="1771832205027" duration="1510000" />
+      <workItem from="1771911881665" duration="692000" />
+      <workItem from="1771926194454" duration="6133000" />
     </task>
     <servers />
   </component>

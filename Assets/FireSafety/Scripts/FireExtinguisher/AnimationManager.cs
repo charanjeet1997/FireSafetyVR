@@ -11,7 +11,7 @@ public class AnimationManager : MonoBehaviour
 
     public void SetGrabTrigger()
     {
-        animator.Play("Grab");
+        animator.Play("Press");
     }
 
     public void SetReleaseTrigger()

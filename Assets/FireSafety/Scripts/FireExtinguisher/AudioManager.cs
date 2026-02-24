@@ -10,7 +10,7 @@ public class AudioManager : MonoBehaviour
     
     public void PlaySpraySound()
     {
-        extinguisher.PlayOneShot(spraySound);
+        extinguisher.Play();
     }
 
     public void StopSpraySound()
