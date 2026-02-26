@@ -5,16 +5,868 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5849f0c2-5c0b-4bc0-801a-c32f1f4a8f34" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.FireSafetyVR/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FireSafetyVR/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/FireSafety/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FireSafety/Scenes/Game.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FireSafety/Scripts/FireExtinguisher/FireExtinguisher.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FireSafety/Scripts/FireExtinguisher/FireExtinguisher.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.7.1/HandVisualizer/Models/LeftHand.fbx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.7.1/HandVisualizer/Models/LeftHandAndroidXR.fbx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.7.1/HandVisualizer/Models/RightHand.fbx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.7.1/HandVisualizer/Models/RightHandAndroidXR.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.7.2.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.7.2/HandVisualizer.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.7.2/HandVisualizer/HandVisualizer.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.7.2/HandVisualizer/HandVisualizer.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.7.2/HandVisualizer/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.7.2/HandVisualizer/Materials/Blue.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.7.2/HandVisualizer/Materials/Blue.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.7.2/HandVisualizer/Materials/Green.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.7.2/HandVisualizer/Materials/Green.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.7.2/HandVisualizer/Materials/HandsDefaultMaterial.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.7.2/HandVisualizer/Materials/HandsDefaultMaterial.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.7.2/HandVisualizer/Materials/MaterialPipelineHandler.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.7.2/HandVisualizer/Materials/MaterialPipelineHandler.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.7.2/HandVisualizer/Materials/Red.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.7.2/HandVisualizer/Materials/Red.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.7.2/HandVisualizer/Materials/TransparentRed.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.7.2/HandVisualizer/Materials/TransparentRed.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.7.2/HandVisualizer/Materials/White.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.7.2/HandVisualizer/Materials/White.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.7.2/HandVisualizer/Models.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.7.2/HandVisualizer/Models/LeftHand.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.7.2/HandVisualizer/Models/LeftHand.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.7.2/HandVisualizer/Models/LeftHandAndroidXR.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.7.2/HandVisualizer/Models/LeftHandAndroidXR.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.7.2/HandVisualizer/Models/RightHand.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.7.2/HandVisualizer/Models/RightHand.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.7.2/HandVisualizer/Models/RightHandAndroidXR.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.7.2/HandVisualizer/Models/RightHandAndroidXR.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.7.2/HandVisualizer/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.7.2/HandVisualizer/Prefabs/Joint.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.7.2/HandVisualizer/Prefabs/Joint.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.7.2/HandVisualizer/Prefabs/Left Hand Tracking.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.7.2/HandVisualizer/Prefabs/Left Hand Tracking.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.7.2/HandVisualizer/Prefabs/Right Hand Tracking.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.7.2/HandVisualizer/Prefabs/Right Hand Tracking.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.7.2/HandVisualizer/Prefabs/VelocityPrefab.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.7.2/HandVisualizer/Prefabs/VelocityPrefab.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.7.2/HandVisualizer/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.7.2/HandVisualizer/README.md.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.7.2/HandVisualizer/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.7.2/HandVisualizer/Scripts/HandProcessor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.7.2/HandVisualizer/Scripts/HandProcessor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.7.2/HandVisualizer/Scripts/HandVisualizer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.7.2/HandVisualizer/Scripts/HandVisualizer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.7.2/HandVisualizer/Scripts/JointVisualizer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.7.2/HandVisualizer/Scripts/JointVisualizer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.7.2/HandVisualizer/Scripts/MaterialPipelineHandler.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.7.2/HandVisualizer/Scripts/MaterialPipelineHandler.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.7.2/HandVisualizer/Unity.XR.Hands.Samples.VisualizerSample.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.7.2/HandVisualizer/Unity.XR.Hands.Samples.VisualizerSample.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.3.0/Hands Interaction Demo/HandsDemoSceneAssets/Materials/AccentButton.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.3.0/Hands Interaction Demo/HandsDemoSceneAssets/Materials/AccentButton.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.3.0/Hands Interaction Demo/HandsDemoSceneAssets/Materials/ChessPiece.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.3.0/Hands Interaction Demo/HandsDemoSceneAssets/Materials/ChessPiece.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.3.0/Hands Interaction Demo/HandsDemoSceneAssets/Materials/Chrome.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.3.0/Hands Interaction Demo/HandsDemoSceneAssets/Materials/Chrome.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.3.0/Hands Interaction Demo/HandsDemoSceneAssets/Materials/Controls_Black.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.3.0/Hands Interaction Demo/HandsDemoSceneAssets/Materials/Controls_Black.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.3.0/Hands Interaction Demo/HandsDemoSceneAssets/Materials/FrameOutline.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.3.0/Hands Interaction Demo/HandsDemoSceneAssets/Materials/FrameOutline.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.3.0/Hands Interaction Demo/HandsDemoSceneAssets/Materials/Interactable White.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.3.0/Hands Interaction Demo/HandsDemoSceneAssets/Materials/Interactable White.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.3.0/Hands Interaction Demo/HandsDemoSceneAssets/Materials/Table Surface.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.3.0/Hands Interaction Demo/HandsDemoSceneAssets/Materials/Table Surface.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.3.0/Hands Interaction Demo/HandsDemoSceneAssets/Models/Primitives/Cube.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.3.0/Hands Interaction Demo/HandsDemoSceneAssets/Models/Primitives/Cube.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.3.0/Hands Interaction Demo/HandsDemoSceneAssets/Models/Primitives/Cylinder.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.3.0/Hands Interaction Demo/HandsDemoSceneAssets/Models/Primitives/Cylinder.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.3.0/Hands Interaction Demo/Materials/Unity_Hand_Dark.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.3.0/Hands Interaction Demo/Materials/Unity_Hand_Dark.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.3.0/Hands Interaction Demo/Materials/Unity_Hand_Light.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.3.0/Hands Interaction Demo/Materials/Unity_Hand_Light.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.3.0/Hands Interaction Demo/Materials/Unity_Hand_Medium.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.3.0/Hands Interaction Demo/Materials/Unity_Hand_Medium.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.3.0/Hands Interaction Demo/Shaders/RimLight.shadergraph" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.3.0/Hands Interaction Demo/Shaders/RimLight.shadergraph" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.3.0/Hands Interaction Demo/Shaders/Unity_Hand.shadergraph" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.3.0/Hands Interaction Demo/Shaders/Unity_Hand.shadergraph" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.3.0/Hands Interaction Demo/Shaders/Unity_Hand_HDR.shadergraph" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.3.0/Hands Interaction Demo/Shaders/Unity_Hand_HDR.shadergraph" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.3.0/Hands Interaction Demo/Shaders/Unity_Hand_Noise.shadergraph" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.3.0/Hands Interaction Demo/Shaders/Unity_Hand_Noise.shadergraph" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.3.0/Hands Interaction Demo/Shaders/Unity_Hand_Noise_HDR.shadergraph" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.3.0/Hands Interaction Demo/Shaders/Unity_Hand_Noise_HDR.shadergraph" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.3.0/Starter Assets/Prefabs/Teleport/Directional Teleport Reticle.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.3.0/Starter Assets/Prefabs/Teleport/Directional Teleport Reticle.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/build_info" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/build_info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/XRI/Settings/Resources/InteractionLayerSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/XRI/Settings/Resources/InteractionLayerSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/VRTemplateAssets/Prefabs/Setup/Complete XR Origin Set Up Hands Variant.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/VRTemplateAssets/Prefabs/Setup/Complete XR Origin Set Up Hands Variant.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/XR/Settings/OpenXR Editor Settings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/XR/Settings/OpenXR Editor Settings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/XR/Settings/OpenXR Package Settings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/XR/Settings/OpenXR Package Settings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/CHANGELOG.md.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/TableOfContents.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/gestures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/gestures/building-blocks.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/gestures/custom-gestures.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/gestures/define-a-gesture.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/gestures/finger-shapes.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/gestures/gesture-debugger-edit.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/gestures/gesture-debugger-install.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/gestures/gesture-debugger-ui.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/gestures/gesture-debugger.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/gestures/gesture-design.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/gestures/hand-orientation.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/gestures/hand-poses.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/gestures/hand-shape-completeness.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/gestures/hand-shapes.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/gestures/static-hand-gesture.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/gestures/xrhandcapture-playback.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/gestures/xrhandcapture-recording.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/gestures/xrhandcapture.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/hand-data/xr-hand-access-data.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/hand-data/xr-hand-data-model.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/hand-data/xr-hand-tracking.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/hand-data/xr-hand-visuals.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/images/XRHandCapture/hand-capture-sample/Broken-Materials.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/images/XRHandCapture/hand-capture-sample/BuildSettings.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/images/XRHandCapture/hand-capture-sample/HandCapture-Scene-Path.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/images/XRHandCapture/hand-capture-sample/Instruction-UI.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/images/XRHandCapture/hand-capture-sample/Missing-Prefabs-Error.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/images/XRHandCapture/hand-capture-sample/Project_Validation_HandVisualizer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/images/XRHandCapture/hand-capture-sample/Project_Validation_XRI_Package.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/images/XRHandCapture/hand-capture-sample/Project_Validation_XRI_Samples.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/images/XRHandCapture/hand-capture-sample/Ready-To-Record-UI.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/images/XRHandCapture/hand-capture-sample/Recording-UI.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/images/XRHandCapture/hand-capture-sample/Saved-Recording-UI.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/images/XRHandCapture/hand-capture-sample/Stop-Recording-UI.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/images/XRHandCapture/hand-capture-sample/XR-Plugin-Management-OpenXR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/images/XRHandCapture/hand-capture-sample/XR-Plugin-Management.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/images/XRHandCapture/hand-capture-sample/feature-visual.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/images/XRHandCapture/playback-window/Imported_Recordings.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/images/XRHandCapture/playback-window/Playback_Window_Hand_Visualization.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/images/XRHandCapture/playback-window/Playback_Window_Step1_Import.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/images/XRHandCapture/playback-window/Playback_Window_Step2_FingerShapeValues.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/images/XRHandCapture/playback-window/Playback_Window_Step2_Select.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/images/XRHandCapture/playback-window/Playback_Window_Step3_Save.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/images/XRHandCapture/playback-window/XRHandCapture_Playback_Window.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/images/XRHandCapture/playback-window/playback-visual.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/images/cover_image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/images/debug-hand-poses.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/images/debug-hand-shapes.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/images/enable-openxr-plugin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/images/gestures/advanced-pose-debugger.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/images/gestures/base-curl-joints.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/images/gestures/base-curl-max.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/images/gestures/base-curl-none.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/images/gestures/base-curl-some.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/images/gestures/chin-direction.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/images/gestures/component-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/images/gestures/custom-hand-pose.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/images/gestures/distal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/images/gestures/ear-to-nose-direction.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/images/gestures/finger-data-display.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/images/gestures/finger-shapes.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/images/gestures/fingers-extended-direction.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/images/gestures/full-curl-half.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/images/gestures/full-curl-joints.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/images/gestures/full-curl-max.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/images/gestures/full-curl-none.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/images/gestures/gesture-debugger-screenshot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/images/gestures/gesture-detector-ui.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/images/gestures/hand-gestures-sample-scene.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/images/gestures/hand-orientation.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/images/gestures/hand-pose-img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/images/gestures/hand-pose.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/images/gestures/hand-shape-completeness-calculator-component.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/images/gestures/hand-shape-completeness-debugger.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/images/gestures/hand-shape-completeness-demo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/images/gestures/hand-shape-completeness-external-buffer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/images/gestures/hand-shape-completeness-internal-buffer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/images/gestures/hand-shape-debug-component.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/images/gestures/hand-shape-img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/images/gestures/hand-shape.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/images/gestures/intermediate.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/images/gestures/joints.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/images/gestures/metacarpal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/images/gestures/nose-direction.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/images/gestures/nose-to-ear-direction.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/images/gestures/origin-up.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/images/gestures/palm-direction-aligns-with-origin-up.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/images/gestures/palm-direction-aligns-with-target-y.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/images/gestures/palm-direction-opposite-to-origin-up.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/images/gestures/palm-direction-opposite-to-target-y.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/images/gestures/palm-direction-perpendicular-to-origin-up.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/images/gestures/palm-direction-perpendicular-to-target-y.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/images/gestures/palm-direction.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/images/gestures/palm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/images/gestures/pinch-joints.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/images/gestures/pinch-max.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/images/gestures/pinch-none.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/images/gestures/pinch-some.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/images/gestures/proximal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/images/gestures/rule-example-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/images/gestures/rule-example-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/images/gestures/set-hand-pose.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/images/gestures/set-hand-shape.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/images/gestures/set-static-hand-gesture.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/images/gestures/spread-joints.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/images/gestures/spread-max.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/images/gestures/spread-none.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/images/gestures/spread-some.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/images/gestures/static-hand-gesture.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/images/gestures/target-forward.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/images/gestures/target-relative-orientation.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/images/gestures/target-x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/images/gestures/target-y.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/images/gestures/thumb-extended-direction.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/images/gestures/tip-curl-half.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/images/gestures/tip-curl-joints.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/images/gestures/tip-curl-max.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/images/gestures/tip-curl-none.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/images/gestures/tip.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/images/gestures/towards-head.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/images/gestures/towards-target.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/images/gestures/user-relative-orientation.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/images/gestures/wrist.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/images/hand-tracking.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/images/import-vis-sample.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/images/install.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/images/intermediate-grab-pose.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/images/simple-scene-graph.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/images/upper-lower-tolerance.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/images/xrhand-skeleton-joint-hierarchy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/images/xrhands-data-model.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/images/xrorigin-context-menu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/implement-a-provider.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/openxr-features/handtracking.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/openxr-features/metahandtrackingaim.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/openxr-features/xr-hand-openxr-features.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/process-joints.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/project-setup/install-xrhands.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/project-setup/project-setup.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/project-setup/scene-setup.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/version-history/version-history.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Documentation~/version-history/whats-new.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Editor/Analytics.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Editor/Analytics/AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Editor/Analytics/AssemblyInfo.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Editor/Analytics/Unity.XR.Hands.Analytics.Editor.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Editor/Analytics/Unity.XR.Hands.Analytics.Editor.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Editor/Analytics/XRHandCaptureAnalyticsData.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Editor/Analytics/XRHandCaptureAnalyticsData.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Editor/Analytics/XRHandsAnalytics.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Editor/Analytics/XRHandsAnalytics.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Editor/Analytics/XRHandsEditmodeUsageEvent.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Editor/Analytics/XRHandsEditmodeUsageEvent.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Editor/Analytics/XRHandsEditorAnalyticsEvent.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Editor/Analytics/XRHandsEditorAnalyticsEvent.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Editor/Analytics/XRHandsPlaymodeUsageEvent.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Editor/Analytics/XRHandsPlaymodeUsageEvent.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Editor/AnalyticsHooks.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Editor/AnalyticsHooks/AnalyticsPlayModeUsageHooks.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Editor/AnalyticsHooks/AnalyticsPlayModeUsageHooks.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Editor/AnalyticsHooks/Unity.XR.Hands.Analytics.Hooks.Editor.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Editor/AnalyticsHooks/Unity.XR.Hands.Analytics.Hooks.Editor.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Editor/BaseXRHandsEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Editor/BaseXRHandsEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Editor/Capture.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Editor/Capture/AndroidDeviceFileService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Editor/Capture/AndroidDeviceFileService.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Editor/Capture/EditorUIUtils.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Editor/Capture/EditorUIUtils.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Editor/Capture/GameObjectExtensions.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Editor/Capture/GameObjectExtensions.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Editor/Capture/IDeviceFileService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Editor/Capture/IDeviceFileService.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Editor/Capture/VisualizationUtils.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Editor/Capture/VisualizationUtils.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Editor/Capture/XRHandCaptureEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Editor/Capture/XRHandCaptureEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Editor/Capture/XRHandCaptureEditorWindow.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Editor/Capture/XRHandCaptureEditorWindow.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Editor/Capture/XRHandCaptureImporter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Editor/Capture/XRHandCaptureImporter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Editor/Capture/XRHandCapturePlayback.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Editor/Capture/XRHandCapturePlayback.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Editor/Gestures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Editor/Gestures/XRHandShapeEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Editor/Gestures/XRHandShapeEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Editor/Icons.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Editor/Icons/XRHandPose_ScriptIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Editor/Icons/XRHandPose_ScriptIcon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Editor/Icons/XRHandShape_ScriptIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Editor/Icons/XRHandShape_ScriptIcon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Editor/OpenXR.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Editor/OpenXR/ModifyAndroidManifest.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Editor/OpenXR/ModifyAndroidManifest.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Editor/ProjectValidation.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Editor/ProjectValidation/AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Editor/ProjectValidation/AssemblyInfo.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Editor/ProjectValidation/ProjectValidationUtility.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Editor/ProjectValidation/ProjectValidationUtility.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Editor/Unity.XR.Hands.Editor.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Editor/Unity.XR.Hands.Editor.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Editor/XRHandSkeletonDriverEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Editor/XRHandSkeletonDriverEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Editor/XRHandTrackingEventsEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Editor/XRHandTrackingEventsEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/LICENSE.md.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/README.md.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/AssemblyInfo.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/Capture.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/Capture/Recording.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/Capture/Recording/Impl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/Capture/Recording/Impl/BinaryFileFormatConfigs.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/Capture/Recording/Impl/BinaryFileFormatConfigs.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/Capture/Recording/Impl/FrameBuffer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/Capture/Recording/Impl/FrameBuffer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/Capture/Recording/Impl/RawFrame.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/Capture/Recording/Impl/RawFrame.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/Capture/Recording/XRHandRecordingBase.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/Capture/Recording/XRHandRecordingBase.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/Capture/Recording/XRHandRecordingBlob.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/Capture/Recording/XRHandRecordingBlob.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/Capture/Recording/XRHandRecordingFrameCapturedEventArgs.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/Capture/Recording/XRHandRecordingFrameCapturedEventArgs.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/Capture/Recording/XRHandRecordingInitializeArgs.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/Capture/Recording/XRHandRecordingInitializeArgs.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/Capture/Recording/XRHandRecordingMetadata.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/Capture/Recording/XRHandRecordingMetadata.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/Capture/Recording/XRHandRecordingSaveArgs.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/Capture/Recording/XRHandRecordingSaveArgs.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/Capture/Recording/XRHandRecordingSettings.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/Capture/Recording/XRHandRecordingSettings.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/Capture/Recording/XRHandRecordingStatusChangedEventArgs.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/Capture/Recording/XRHandRecordingStatusChangedEventArgs.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/Capture/XRHandCaptureFrame.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/Capture/XRHandCaptureFrame.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/Capture/XRHandCaptureSequence.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/Capture/XRHandCaptureSequence.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/Enums.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/Enums.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/Gestures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/Gestures/Enums.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/Gestures/Enums.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/Gestures/XRFingerShape.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/Gestures/XRFingerShape.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/Gestures/XRFingerShapeCondition.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/Gestures/XRFingerShapeCondition.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/Gestures/XRFingerShapeConfiguration.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/Gestures/XRFingerShapeConfiguration.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/Gestures/XRFingerShapeMath.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/Gestures/XRFingerShapeMath.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/Gestures/XRHandOrientationUtility.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/Gestures/XRHandOrientationUtility.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/Gestures/XRHandPose.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/Gestures/XRHandPose.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/Gestures/XRHandRelativeOrientation.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/Gestures/XRHandRelativeOrientation.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/Gestures/XRHandShape.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/Gestures/XRHandShape.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/IXRHandProcessor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/IXRHandProcessor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/Meshing.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/Meshing/XRHandMeshData.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/Meshing/XRHandMeshData.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/Meshing/XRHandMeshDataQueryParams.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/Meshing/XRHandMeshDataQueryParams.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/Meshing/XRHandMeshDataQueryResult.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/Meshing/XRHandMeshDataQueryResult.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/MetaAim.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/MetaAim.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/MetaAim.deprecated.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/MetaAim.deprecated.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/OpenXR.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/OpenXR/HandTracking.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/OpenXR/HandTracking.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/OpenXR/Meshing.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/OpenXR/Meshing/IOpenXRHandMeshDataSupplier.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/OpenXR/Meshing/IOpenXRHandMeshDataSupplier.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/OpenXR/MetaHandTrackingAim.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/OpenXR/MetaHandTrackingAim.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/OpenXR/MetaHandTrackingAim.deprecated.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/OpenXR/MetaHandTrackingAim.deprecated.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/OpenXR/OpenXRHandProvider.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/OpenXR/OpenXRHandProvider.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/Unity.XR.Hands.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/Unity.XR.Hands.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/XRCommonHandGestures.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/XRCommonHandGestures.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/XRHand.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/XRHand.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/XRHandAnalyticsData.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/XRHandAnalyticsData.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/XRHandAnalyticsFlags.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/XRHandAnalyticsFlags.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/XRHandDevice.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/XRHandDevice.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/XRHandDeviceState.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/XRHandDeviceState.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/XRHandFeatureUsageData.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/XRHandFeatureUsageData.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/XRHandJoint.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/XRHandJoint.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/XRHandJointsUpdatedEventArgs.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/XRHandJointsUpdatedEventArgs.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/XRHandMeshController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/XRHandMeshController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/XRHandProcessingUtility.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/XRHandProcessingUtility.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/XRHandProviderUtility.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/XRHandProviderUtility.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/XRHandProviderUtility.deprecated.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/XRHandProviderUtility.deprecated.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/XRHandSkeletonDriver.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/XRHandSkeletonDriver.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/XRHandSkeletonDriver.deprecated.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/XRHandSkeletonDriver.deprecated.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/XRHandSkeletonDriverUtility.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/XRHandSkeletonDriverUtility.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/XRHandSubsystem.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/XRHandSubsystem.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/XRHandSubsystem.deprecated.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/XRHandSubsystem.deprecated.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/XRHandSubsystemConfiguration.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/XRHandSubsystemConfiguration.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/XRHandSubsystemDescriptor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/XRHandSubsystemDescriptor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/XRHandSubsystemProvider.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/XRHandSubsystemProvider.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/XRHandTrackingEvents.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/XRHandTrackingEvents.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/XRHelpURLConstants.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/XRHelpURLConstants.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/android.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/android/arm64.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/android/arm64/libUnityOpenXRHands.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/android/arm64/libUnityOpenXRHands.so.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/android/x64.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/android/x64/libUnityOpenXRHands.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/android/x64/libUnityOpenXRHands.so.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/osx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/osx/UnityOpenXRHands.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/osx/UnityOpenXRHands.dylib.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/universalwindows.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/universalwindows/arm32.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/universalwindows/arm32/UnityOpenXRHands.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/universalwindows/arm32/UnityOpenXRHands.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/universalwindows/arm64.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/universalwindows/arm64/UnityOpenXRHands.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/universalwindows/arm64/UnityOpenXRHands.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/universalwindows/x64.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/universalwindows/x64/UnityOpenXRHands.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/universalwindows/x64/UnityOpenXRHands.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/windows.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/windows/x64.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/windows/x64/UnityOpenXRHands.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Runtime/windows/x64/UnityOpenXRHands.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Debug Tools.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Debug Tools/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Debug Tools/Materials/Background.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Debug Tools/Materials/Background.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Debug Tools/Materials/Bar.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Debug Tools/Materials/Bar.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Debug Tools/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Debug Tools/Prefabs/Advanced Pose Debugger.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Debug Tools/Prefabs/Advanced Pose Debugger.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Debug Tools/Prefabs/Finger States Debug UI.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Debug Tools/Prefabs/Finger States Debug UI.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Debug Tools/Prefabs/Finger States UI Minimal.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Debug Tools/Prefabs/Finger States UI Minimal.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Debug Tools/Prefabs/Hand Shape Debugger.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Debug Tools/Prefabs/Hand Shape Debugger.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Debug Tools/Prefabs/Left and Right Hand Shape Debug UI.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Debug Tools/Prefabs/Left and Right Hand Shape Debug UI.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Debug Tools/Prefabs/One Hand Shape Debug UI.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Debug Tools/Prefabs/One Hand Shape Debug UI.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Debug Tools/Prefabs/State UI Minimal.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Debug Tools/Prefabs/State UI Minimal.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Debug Tools/Prefabs/State UI.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Debug Tools/Prefabs/State UI.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Debug Tools/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Debug Tools/Scripts/XRAllFingerShapesDebugUI.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Debug Tools/Scripts/XRAllFingerShapesDebugUI.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Debug Tools/Scripts/XRFingerShapeDebugBar.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Debug Tools/Scripts/XRFingerShapeDebugBar.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Debug Tools/Scripts/XRFingerShapeDebugUI.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Debug Tools/Scripts/XRFingerShapeDebugUI.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Debug Tools/Scripts/XRHandShapeDebugUI.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Debug Tools/Scripts/XRHandShapeDebugUI.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Debug Tools/Scripts/XRSelectedHandShapeDebugUI.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Debug Tools/Scripts/XRSelectedHandShapeDebugUI.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Debug Tools/Sprites.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Debug Tools/Sprites/BaseCurl_Icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Debug Tools/Sprites/BaseCurl_Icon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Debug Tools/Sprites/FingerStateUI.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Debug Tools/Sprites/FingerStateUI/FingerStateUI_Icon_CheckMark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Debug Tools/Sprites/FingerStateUI/FingerStateUI_Icon_CheckMark.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Debug Tools/Sprites/FingerStateUI/FingerStateUI_Icon_Cross.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Debug Tools/Sprites/FingerStateUI/FingerStateUI_Icon_Cross.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Debug Tools/Sprites/FingerStateUI/Finger_State_UI_Background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Debug Tools/Sprites/FingerStateUI/Finger_State_UI_Background.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Debug Tools/Sprites/FingerStateUI/Finger_State_UI_Background_Wide.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Debug Tools/Sprites/FingerStateUI/Finger_State_UI_Background_Wide.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Debug Tools/Sprites/Finger_State_UI_Background_v2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Debug Tools/Sprites/Finger_State_UI_Background_v2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Debug Tools/Sprites/FullCurl_Icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Debug Tools/Sprites/FullCurl_Icon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Debug Tools/Sprites/Gesture Icons.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Debug Tools/Sprites/Gesture Icons/Fist_L_Icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Debug Tools/Sprites/Gesture Icons/Fist_L_Icon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Debug Tools/Sprites/Gesture Icons/Fist_R_Icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Debug Tools/Sprites/Gesture Icons/Fist_R_Icon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Debug Tools/Sprites/Gesture Icons/Grab_L_Icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Debug Tools/Sprites/Gesture Icons/Grab_L_Icon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Debug Tools/Sprites/Gesture Icons/Grab_R_Icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Debug Tools/Sprites/Gesture Icons/Grab_R_Icon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Debug Tools/Sprites/Gesture Icons/Palm up_L_Icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Debug Tools/Sprites/Gesture Icons/Palm up_L_Icon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Debug Tools/Sprites/Gesture Icons/Palm up_R_Icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Debug Tools/Sprites/Gesture Icons/Palm up_R_Icon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Debug Tools/Sprites/Gesture Icons/Point here_L_Icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Debug Tools/Sprites/Gesture Icons/Point here_L_Icon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Debug Tools/Sprites/Gesture Icons/Point here_R_Icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Debug Tools/Sprites/Gesture Icons/Point here_R_Icon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Debug Tools/Sprites/Gesture Icons/Shaka_L_Icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Debug Tools/Sprites/Gesture Icons/Shaka_L_Icon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Debug Tools/Sprites/Gesture Icons/Shaka_R_Icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Debug Tools/Sprites/Gesture Icons/Shaka_R_Icon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Debug Tools/Sprites/Gesture Icons/Thumbs down_L_Icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Debug Tools/Sprites/Gesture Icons/Thumbs down_L_Icon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Debug Tools/Sprites/Gesture Icons/Thumbs down_R_Icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Debug Tools/Sprites/Gesture Icons/Thumbs down_R_Icon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Debug Tools/Sprites/Gesture Icons/Thumbs up_L_Icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Debug Tools/Sprites/Gesture Icons/Thumbs up_L_Icon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Debug Tools/Sprites/Gesture Icons/Thumbs up_R_Icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Debug Tools/Sprites/Gesture Icons/Thumbs up_R_Icon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Debug Tools/Sprites/Graph_Background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Debug Tools/Sprites/Graph_Background.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Debug Tools/Sprites/Left_Handedness_Icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Debug Tools/Sprites/Left_Handedness_Icon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Debug Tools/Sprites/Pinch_Icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Debug Tools/Sprites/Pinch_Icon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Debug Tools/Sprites/Right_Handedness_Icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Debug Tools/Sprites/Right_Handedness_Icon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Debug Tools/Sprites/RoundedCornerBackground.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Debug Tools/Sprites/RoundedCornerBackground.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Debug Tools/Sprites/Splay_Icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Debug Tools/Sprites/Splay_Icon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Debug Tools/Sprites/Target.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Debug Tools/Sprites/Target.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Debug Tools/Sprites/TipCurl_Icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Debug Tools/Sprites/TipCurl_Icon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Debug Tools/Sprites/XRHandPose_Icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Debug Tools/Sprites/XRHandPose_Icon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Debug Tools/Sprites/XRHandShape_Icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Debug Tools/Sprites/XRHandShape_Icon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Editor/GesturesSampleProjectValidation.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Editor/GesturesSampleProjectValidation.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Editor/Unity.XR.Hands.Samples.Gestures.Editor.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Editor/Unity.XR.Hands.Samples.Gestures.Editor.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Examples.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Examples/Hand Poses.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Examples/Hand Poses/Fist Bump.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Examples/Hand Poses/Fist Bump.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Examples/Hand Poses/Grab.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Examples/Hand Poses/Grab.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Examples/Hand Poses/Open Palm Up.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Examples/Hand Poses/Open Palm Up.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Examples/Hand Poses/Point At.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Examples/Hand Poses/Point At.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Examples/Hand Poses/Shaka.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Examples/Hand Poses/Shaka.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Examples/Hand Poses/Thumbs Down.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Examples/Hand Poses/Thumbs Down.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Examples/Hand Poses/Thumbs Up.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Examples/Hand Poses/Thumbs Up.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Examples/Hand Shapes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Examples/Hand Shapes/Fist Hand Shape.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Examples/Hand Shapes/Fist Hand Shape.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Examples/Hand Shapes/Grab Hand Shape.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Examples/Hand Shapes/Grab Hand Shape.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Examples/Hand Shapes/Open Hand Shape.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Examples/Hand Shapes/Open Hand Shape.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Examples/Hand Shapes/Point Hand Shape.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Examples/Hand Shapes/Point Hand Shape.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Examples/Hand Shapes/Shaka Hand Shape.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Examples/Hand Shapes/Shaka Hand Shape.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Examples/Hand Shapes/Thumb Signal Hand Shape.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Examples/Hand Shapes/Thumb Signal Hand Shape.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Examples/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Examples/Prefabs/Gesture Detection.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Examples/Prefabs/Gesture Detection.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Examples/Prefabs/One Hand Gesture Detection.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Examples/Prefabs/One Hand Gesture Detection.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Examples/Prefabs/One Hand Static Gesture.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Examples/Prefabs/One Hand Static Gesture.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Examples/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Examples/Scripts/HandShapeCompletenessCalculator.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Examples/Scripts/HandShapeCompletenessCalculator.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Examples/Scripts/StaticHandGesture.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Examples/Scripts/StaticHandGesture.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/HandGestures.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/HandGestures.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Unity.XR.Hands.Samples.Gestures.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/Gestures/Unity.XR.Hands.Samples.Gestures.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Editor/CaptureSessionManagerEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Editor/CaptureSessionManagerEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Editor/Unity.XR.Hands.Samples.HandCapture.Editor.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Editor/Unity.XR.Hands.Samples.HandCapture.Editor.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Editor/XRHandCaptureSampleProjectValidation.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Editor/XRHandCaptureSampleProjectValidation.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/HandCapture.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/HandCapture.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Materials/EnvironmentMaterials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Materials/EnvironmentMaterials/Back wall and Base.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Materials/EnvironmentMaterials/Back wall and Base.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Materials/EnvironmentMaterials/Black_No_Shadows.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Materials/EnvironmentMaterials/Black_No_Shadows.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Materials/EnvironmentMaterials/Grid.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Materials/EnvironmentMaterials/Grid/Grid Dark Large.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Materials/EnvironmentMaterials/Grid/Grid Dark Large.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Materials/EnvironmentMaterials/Grid/Grid Dark Tight.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Materials/EnvironmentMaterials/Grid/Grid Dark Tight.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Materials/EnvironmentMaterials/Grid/Grid.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Materials/EnvironmentMaterials/Grid/Grid.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Materials/EnvironmentMaterials/Polysurface16.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Materials/EnvironmentMaterials/Polysurface16.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Materials/EnvironmentMaterials/distant environment.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Materials/EnvironmentMaterials/distant environment.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Materials/Fonts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Materials/Fonts/Inter.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Materials/Fonts/Inter/Inter-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Materials/Fonts/Inter/Inter-Regular.ttf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Materials/Fonts/Inter/Inter-Regular_SDF 1.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Materials/Fonts/Inter/Inter-Regular_SDF 1.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Materials/Fonts/Inter/Inter-Regular_SDF_Material_XRay_Blue.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Materials/Fonts/Inter/Inter-Regular_SDF_Material_XRay_Blue.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Materials/Fonts/Inter/Inter-Regular_SDF_Overlay_Material.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Materials/Fonts/Inter/Inter-Regular_SDF_Overlay_Material.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Materials/Hand model materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Materials/Hand model materials/Concrete Dark Blue.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Materials/Hand model materials/Concrete Dark Blue.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Materials/Hand model materials/TransparentMaterial.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Materials/Hand model materials/TransparentMaterial.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Materials/MaterialPipelineHandler.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Materials/MaterialPipelineHandler.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Materials/Skybox.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Materials/Skybox/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Materials/Skybox/Materials/Skybox 4_no edges - Copy.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Materials/Skybox/Materials/Skybox 4_no edges - Copy.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Materials/Skybox/Materials/Skybox 7.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Materials/Skybox/Materials/Skybox 7.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Materials/Skybox/Materials/Skybox 8.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Materials/Skybox/Materials/Skybox 8.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Materials/Skybox/Skybox 10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Materials/Skybox/Skybox 10.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Materials/Skybox/Skybox 11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Materials/Skybox/Skybox 11.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Materials/Skybox/Skybox.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Materials/Skybox/Skybox.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Models.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Models/Back wall.mesh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Models/Back wall.mesh.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Models/Base.mesh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Models/Base.mesh.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Models/Distant environment.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Models/Distant environment/polySurface1.mesh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Models/Distant environment/polySurface1.mesh.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Models/Distant environment/polySurface10.mesh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Models/Distant environment/polySurface10.mesh.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Models/Distant environment/polySurface11.mesh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Models/Distant environment/polySurface11.mesh.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Models/Distant environment/polySurface12.mesh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Models/Distant environment/polySurface12.mesh.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Models/Distant environment/polySurface13.mesh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Models/Distant environment/polySurface13.mesh.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Models/Distant environment/polySurface14.mesh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Models/Distant environment/polySurface14.mesh.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Models/Distant environment/polySurface15.mesh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Models/Distant environment/polySurface15.mesh.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Models/Distant environment/polySurface16.mesh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Models/Distant environment/polySurface16.mesh.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Models/Distant environment/polySurface2.mesh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Models/Distant environment/polySurface2.mesh.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Models/Distant environment/polySurface3.mesh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Models/Distant environment/polySurface3.mesh.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Models/Distant environment/polySurface4.mesh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Models/Distant environment/polySurface4.mesh.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Models/Distant environment/polySurface5.mesh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Models/Distant environment/polySurface5.mesh.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Models/Distant environment/polySurface6.mesh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Models/Distant environment/polySurface6.mesh.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Models/Distant environment/polySurface7.mesh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Models/Distant environment/polySurface7.mesh.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Models/Distant environment/polySurface8.mesh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Models/Distant environment/polySurface8.mesh.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Models/Distant environment/polySurface9.mesh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Models/Distant environment/polySurface9.mesh.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Models/OKHandModel.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Models/OKHandModel.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Prefabs/Back Wall.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Prefabs/Back Wall.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Prefabs/Base.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Prefabs/Base.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Prefabs/Environment.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Prefabs/Environment.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Prefabs/Saved Recording Item.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Prefabs/Saved Recording Item.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Scripts/CaptureSessionManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Scripts/CaptureSessionManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Scripts/RecorderUserJourneyManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Scripts/RecorderUserJourneyManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Scripts/RecordingController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Scripts/RecordingController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Scripts/RecordingItemView.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Scripts/RecordingItemView.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Sprites.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Sprites/Build to headset.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Sprites/Build to headset.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Sprites/Button 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Sprites/Button 1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Sprites/Button_long 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Sprites/Button_long 1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Sprites/Cancel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Sprites/Cancel.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Sprites/Capture Icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Sprites/Capture Icon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Sprites/Create hand shape.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Sprites/Create hand shape.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Sprites/Ellipse.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Sprites/Ellipse.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Sprites/Frame 458034_big.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Sprites/Frame 458034_big.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Sprites/Frame Boundary.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Sprites/Frame Boundary.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Sprites/Glass Button.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Sprites/Glass Button.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Sprites/Glass_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Sprites/Glass_1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Sprites/Glass_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Sprites/Glass_2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Sprites/Glass_square.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Sprites/Glass_square.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Sprites/Import data.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Sprites/Import data.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Sprites/Input field outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Sprites/Input field outline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Sprites/Progress bar_fill_new.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Sprites/Progress bar_fill_new.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Sprites/Progress bar_new.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Sprites/Progress bar_new.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Sprites/Quest playmode.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Sprites/Quest playmode.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Sprites/Record.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Sprites/Record.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Sprites/Record_big.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Sprites/Record_big.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Sprites/Rectangle- 1 px weight.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Sprites/Rectangle- 1 px weight.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Sprites/Rectangle- 2 px weight.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Sprites/Rectangle- 2 px weight.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Sprites/Rectangle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Sprites/Rectangle.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Sprites/build to headset_big.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Sprites/build to headset_big.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Sprites/button 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Sprites/button 2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Sprites/film strip-square.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Sprites/film strip-square.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Sprites/frosted glass_transparent 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Sprites/frosted glass_transparent 1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Sprites/import data_big.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Sprites/import data_big.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Sprites/lower border.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Sprites/lower border.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Sprites/progress bar 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Sprites/progress bar 1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Sprites/red dot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Sprites/red dot.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Unity.XR.Hands.Samples.HandCapture.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandCapture/Unity.XR.Hands.Samples.HandCapture.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandVisualizer.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandVisualizer/HandVisualizer.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandVisualizer/HandVisualizer.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandVisualizer/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandVisualizer/Materials/Blue.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandVisualizer/Materials/Blue.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandVisualizer/Materials/Green.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandVisualizer/Materials/Green.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandVisualizer/Materials/HandsDefaultMaterial.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandVisualizer/Materials/HandsDefaultMaterial.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandVisualizer/Materials/MaterialPipelineHandler.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandVisualizer/Materials/MaterialPipelineHandler.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandVisualizer/Materials/Red.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandVisualizer/Materials/Red.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandVisualizer/Materials/TransparentRed.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandVisualizer/Materials/TransparentRed.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandVisualizer/Materials/White.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandVisualizer/Materials/White.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandVisualizer/Models.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandVisualizer/Models/LeftHand.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandVisualizer/Models/LeftHand.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandVisualizer/Models/LeftHandAndroidXR.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandVisualizer/Models/LeftHandAndroidXR.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandVisualizer/Models/RightHand.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandVisualizer/Models/RightHand.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandVisualizer/Models/RightHandAndroidXR.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandVisualizer/Models/RightHandAndroidXR.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandVisualizer/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandVisualizer/Prefabs/Joint.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandVisualizer/Prefabs/Joint.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandVisualizer/Prefabs/Left Hand Tracking.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandVisualizer/Prefabs/Left Hand Tracking.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandVisualizer/Prefabs/Right Hand Tracking.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandVisualizer/Prefabs/Right Hand Tracking.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandVisualizer/Prefabs/VelocityPrefab.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandVisualizer/Prefabs/VelocityPrefab.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandVisualizer/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandVisualizer/README.md.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandVisualizer/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandVisualizer/Scripts/HandProcessor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandVisualizer/Scripts/HandProcessor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandVisualizer/Scripts/HandVisualizer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandVisualizer/Scripts/HandVisualizer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandVisualizer/Scripts/JointVisualizer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandVisualizer/Scripts/JointVisualizer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandVisualizer/Scripts/MaterialPipelineHandler.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandVisualizer/Scripts/MaterialPipelineHandler.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandVisualizer/Unity.XR.Hands.Samples.VisualizerSample.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Samples~/HandVisualizer/Unity.XR.Hands.Samples.VisualizerSample.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Tests.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Tests/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Tests/Editor/Unity.XR.Hands.Editor.Tests.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Tests/Editor/Unity.XR.Hands.Editor.Tests.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Tests/Editor/XRHandsEditorAnalyticsTests.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Tests/Editor/XRHandsEditorAnalyticsTests.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Tests/Editor/XRHandsEditorTests.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Tests/Editor/XRHandsEditorTests.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Tests/Runtime.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Tests/Runtime/AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Tests/Runtime/AssemblyInfo.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Tests/Runtime/MockCommonGestureListener.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Tests/Runtime/MockCommonGestureListener.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Tests/Runtime/TestCommonGestureData.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Tests/Runtime/TestCommonGestureData.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Tests/Runtime/TestHandData.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Tests/Runtime/TestHandData.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Tests/Runtime/TestHandNunitExtensions.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Tests/Runtime/TestHandNunitExtensions.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Tests/Runtime/TestHandProvider.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Tests/Runtime/TestHandProvider.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Tests/Runtime/TestHandUtils.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Tests/Runtime/TestHandUtils.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Tests/Runtime/Tests.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Tests/Runtime/Tests.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Tests/Runtime/Unity.XR.Hands.Tests.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Tests/Runtime/Unity.XR.Hands.Tests.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Tests/Runtime/XRHandCaptureTests.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Tests/Runtime/XRHandCaptureTests.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Tests/Runtime/XRHandShapeTests.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Tests/Runtime/XRHandShapeTests.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Tests/Runtime/XRHandsAnalyticsTests.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Tests/Runtime/XRHandsAnalyticsTests.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Third Party Notices.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/Third Party Notices.md.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/ValidationExceptions.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/ValidationExceptions.json.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.xr.hands/package.json.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,6 +962,7 @@
       <workItem from="1772000655435" duration="12427000" />
       <workItem from="1772019383739" duration="3000" />
       <workItem from="1772019415114" duration="14000" />
+      <workItem from="1772108246631" duration="47000" />
     </task>
     <servers />
   </component>
